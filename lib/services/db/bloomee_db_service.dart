@@ -183,7 +183,7 @@ class BloomeeDBService {
               'v${packageInfo.version}+${int.parse(packageInfo.buildNumber) % 1000}',
           "created_at": DateTime.now().toIso8601String(),
           "note":
-              "This file is an automatically generated full backup of Bloomee. It includes playlists, search history, settings, and other app data. Manual modification is strongly discouraged and may cause data corruption. For help, visit: https://github.com/infasmk/LUME/"
+              "This file is an automatically generated full backup of Bloomee. It includes playlists, search history, settings, and other app data. Manual modification is strongly discouraged and may cause data corruption. For help, visit: https://github.com/infasmk/Lume_Music/"
         },
         "b_settings": bSettings.map((e) => e.toJson()).toList(),
         "s_settings": sSettings.map((e) => e.toJson()).toList(),

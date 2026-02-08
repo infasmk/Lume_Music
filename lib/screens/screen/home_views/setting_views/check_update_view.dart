@@ -32,7 +32,7 @@ class CheckUpdateView extends StatelessWidget {
                   children: [
                     const Spacer(),
                     Text(
-                      'Bloomee🌸 is up-to-date!!!',
+                      ' Lume⚡is up-to-date!!!',
                       style: const TextStyle(
                               color: Default_Theme.accentColor2, fontSize: 20)
                           .merge(Default_Theme.secondoryTextStyleMedium),
@@ -42,7 +42,7 @@ class CheckUpdateView extends StatelessWidget {
                       child: FilledButton(
                         onPressed: () {
                           launch_Url(Uri.parse(
-                              "https://github.com/infasmk/LUME/releases"));
+                              "https://github.com/infasmk/Lume_Music/releases"));
                         },
                         child: SizedBox(
                           // width: 150,

@@ -5,7 +5,7 @@
 		{ platform: 'linux', icon: 'fa-brands fa-linux', name: 'Linux',}
 	];
 
-	const githubReleaseLink = "https://github.com/infasmk/LUME/releases";
+	const githubReleaseLink = "https://github.com/infasmk/Lume_Music/releases";
 	const sourceforgeLink = "https://lume.webbits.space";
 
 	function openSourceForge() {

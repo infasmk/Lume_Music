@@ -18,7 +18,7 @@ class NotificationCubit extends Cubit<NotificationState> {
           BloomeeDBService.putNotification(
             title: "Update Available",
             body:
-                "New Version of Bloomee🌸 is now available!! Version: ${value["newVer"]} + ${value["newBuild"]}",
+                "New Version of Lume⚡ is now available!! Version: ${value["newVer"]} + ${value["newBuild"]}",
             type: "app_update",
             unique: true,
           );

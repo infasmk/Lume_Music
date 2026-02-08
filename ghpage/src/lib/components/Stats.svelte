@@ -8,7 +8,7 @@
 	}
 	
 	function handleGithubClick() {
-		window.open('https://github.com/infasmk/lume', '_blank');
+		window.open('https://github.com/infasmk/Lume_Music', '_blank');
 	}
 </script>
 
