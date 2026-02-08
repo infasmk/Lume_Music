@@ -124,7 +124,7 @@ class About extends StatelessWidget {
                       spacing: 6,
                       children: [
                         Text(
-                          'BloomeeTunes',
+                          'LUME Tunes',
                           style: TextStyle(
                             fontSize: 28,
                             fontWeight: FontWeight.bold,
@@ -175,7 +175,7 @@ class About extends StatelessWidget {
                     const SizedBox(width: 12),
                     Flexible(
                       child: Text(
-                        '@iamhemantindia',
+                        '@infaaz',
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
                           color: kPrimaryTextColor,
@@ -209,9 +209,9 @@ class About extends StatelessWidget {
                   _InfoPill(
                       icon: Icons.shield_outlined,
                       text: 'Maintainer',
-                      tooltip: 'Follow him on GitHub',
+                      tooltip: 'Follow him on insragram for updates and creative highlights',
                       onTap: () {
-                        launchUrl(Uri.parse('https://github.com/HemantKArya'),
+                        launchUrl(Uri.parse('https://instagram.com/infaaze?'),
                             mode: LaunchMode.externalApplication);
                       }),
                   // Short label 'Email' opens mail composer
@@ -221,7 +221,7 @@ class About extends StatelessWidget {
                       tooltip: 'Send a business inquiry',
                       onTap: () {
                         launchUrl(
-                          Uri.parse('https://x.com/iamhemantindia'),
+                          Uri.parse('https://x.com/'),
                         );
                       }),
                   // Short label 'Linkedin' opens Linkedin profile
@@ -231,7 +231,7 @@ class About extends StatelessWidget {
                       tooltip: 'Updates and creative highlights',
                       onTap: () {
                         launchUrl(
-                            Uri.parse('https://linkedin.com/in/iamhemantindia'),
+                            Uri.parse('https://linkedin.com/in/'),
                             mode: LaunchMode.externalApplication);
                       }),
                 ],
@@ -250,7 +250,7 @@ class About extends StatelessWidget {
         const Padding(
           padding: EdgeInsets.symmetric(horizontal: 12.0),
           child: Text(
-            '"Enjoying Bloomee? A small tip keeps it blooming." 🌸',
+            '"Enjoying Lume? A small tip keeps it blooming." 🌸',
             textAlign: TextAlign.center,
             style: TextStyle(
                 color: kSecondaryTextColor, fontSize: 14, fontFamily: 'Gilroy'),
@@ -277,7 +277,7 @@ class About extends StatelessWidget {
               borderRadius: BorderRadius.circular(32.0),
               onTap: () {
                 launchUrl(
-                  Uri.parse("https://hemantkarya.github.io/BloomeeTunes/"),
+                  Uri.parse("https://infasmk.github.io/LUME/"),
                   mode: LaunchMode.externalApplication,
                 );
               },
@@ -313,7 +313,7 @@ class About extends StatelessWidget {
         ),
         const SizedBox(height: 20),
         const Text(
-          'I want Bloomee to keep improving.',
+          'I want Lume to keep improving.',
           textAlign: TextAlign.center,
           style: TextStyle(
               color: kSecondaryTextColor, fontSize: 14, fontFamily: 'Gilroy'),
@@ -333,7 +333,7 @@ class About extends StatelessWidget {
               borderRadius: BorderRadius.circular(8),
               onTap: () {
                 launchUrl(
-                    Uri.parse("https://hemantkarya.github.io/BloomeeTunes/"),
+                    Uri.parse("https://infasmk.github.io/LUME/"),
                     mode: LaunchMode.externalApplication);
               },
               child: const Row(

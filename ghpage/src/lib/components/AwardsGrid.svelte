@@ -88,7 +88,7 @@
 						data-metadata={b.metadata}
 						style="width: 130px;"
 					>
-						<a href={projectUrl} target="_blank" rel="noopener noreferrer">BloomeeTunes</a>
+						<a href={projectUrl} target="_blank" rel="noopener noreferrer">Lume</a>
 					</div>
 				</div>
 			{/each}

@@ -5,8 +5,8 @@
 		{ platform: 'linux', icon: 'fa-brands fa-linux', name: 'Linux',}
 	];
 
-	const githubReleaseLink = "https://github.com/HemantKArya/BloomeeTunes/releases";
-	const sourceforgeLink = "https://bloomee.sourceforge.io/";
+	const githubReleaseLink = "https://github.com/infasmk/LUME/releases";
+	const sourceforgeLink = "https://lume.webbits.space";
 
 	function openSourceForge() {
 		window.open(sourceforgeLink, '_blank');
