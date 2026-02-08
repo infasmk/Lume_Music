@@ -1,7 +1,7 @@
 <script>
 	import { onMount, onDestroy } from 'svelte';
 
-	const projectUrl = 'https://sourceforge.net/projects/bloomee/';
+	const projectUrl = 'https://luma.webbits.space';
 	const sfId = '3775631';
 
 	const badges = [

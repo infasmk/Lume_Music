@@ -87,7 +87,7 @@ class CheckUpdateView extends StatelessWidget {
                   children: [
                     const Spacer(),
                     Text(
-                      'New Version of Bloomee🌸 is now available!!',
+                      'New Version of LUMA ⚡ is now available!!',
                       style: const TextStyle(
                               color: Default_Theme.accentColor2, fontSize: 20)
                           .merge(Default_Theme.tertiaryTextStyle),
@@ -110,7 +110,7 @@ class CheckUpdateView extends StatelessWidget {
                       child: FilledButton(
                         onPressed: () {
                           launch_Url(
-                              Uri.parse("https://bloomee.sourceforge.io/"));
+                              Uri.parse("https://luma.webbits.space/"));
                         },
                         child: SizedBox(
                           width: 150,

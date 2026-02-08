@@ -250,7 +250,7 @@ class About extends StatelessWidget {
         const Padding(
           padding: EdgeInsets.symmetric(horizontal: 12.0),
           child: Text(
-            '"Enjoying Lume? A small tip keeps it blooming." 🌸',
+            '"Enjoying Lume? A small tip keeps it blooming." ⚡',
             textAlign: TextAlign.center,
             style: TextStyle(
                 color: kSecondaryTextColor, fontSize: 14, fontFamily: 'Gilroy'),
@@ -676,7 +676,7 @@ class _GentleRotatingFlowerState extends State<GentleRotatingFlower>
             child: Transform.scale(
               scale: scale,
               child: Text(
-                "🌸",
+                "⚡",
                 style: TextStyle(fontSize: widget.size),
               ),
             ),

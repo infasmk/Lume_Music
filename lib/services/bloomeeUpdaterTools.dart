@@ -59,7 +59,7 @@ Future<Map<String, dynamic>> sourceforgeUpdate(
     // normalize unknowns to win for SourceForge naming
     platform = 'win';
   }
-  const url = 'https://sourceforge.net/projects/bloomee/best_release.json';
+  const url = 'https://luma.webbits.space';
   final userAgent = {
     'win':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
@@ -73,7 +73,7 @@ Future<Map<String, dynamic>> sourceforgeUpdate(
   final headers = {
     'user-agent': userAgent['win']!,
     'accept': 'application/json, text/javascript, */*; q=0.01',
-    'referer': 'https://sourceforge.net',
+    'referer': 'https://luma.webbits.space',
   };
   PackageInfo packageInfo = await PackageInfo.fromPlatform();
   try {

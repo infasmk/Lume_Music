@@ -28,8 +28,8 @@ class GlobalEventsCubit extends Cubit<GlobalEventsState> {
         emit(UpdateAvailable(
           newVersion: updates["newVer"],
           message:
-              "New Version of Bloomee🌸 is now available!!\n\nVersion: ${updates["newVer"]} + ${updates["newBuild"]}",
-          downloadUrl: "https://bloomee.sourceforge.io/",
+              "New Version of Luma is now available!!\n\nVersion: ${updates["newVer"]} + ${updates["newBuild"]}",
+          downloadUrl: "https://luma.webbits.space",
         ));
       }
     }
