@@ -17,8 +17,8 @@ class Default_Theme {
   static const primaryColor1 = Color(0xFFDAEAF7);
   static const primaryColor2 = Color.fromARGB(255, 242, 231, 240);
   static const accentColor1 = Color(0xFF0EA5E0);
-  static const accentColor1light = Color(0xFF18C9ED);
-  static const accentColor2 = Color(0xFFFE385E);
+  static const accentColor1light = Color(0xFFad18ed);
+  static const accentColor2 = Color(0xFFbb38ff);
   static const successColor = Color(0xFF5EFF43);
 
   ThemeData get defaultThemeData {
