@@ -1,5 +1,3 @@
-
-
 ## v2.0.9 - 2026-03-04
 
 ### 🎨 Premium Drawer Redesign
@@ -9,9 +7,6 @@
 - **Music Quick Actions**: Added a dedicated **Music** section with **Downloads**, **Equalizer**, **Sleep Timer**, and **Listening History**.
 - **Brand Footer**: Added centered branding with app name, version, and "Made with ❤️ by Infaas".
 
-### 🧹 Settings Cleanup
-- **Removed Donate Option**: Deleted the **Donate** section from Settings UI.
-- **Code Cleanup**: Removed the unused donate settings screen file and related references.
 
 ### ✅ Stability
 - Preserved existing navigation flow, authentication behavior, and backend logic while updating only UI structure.
@@ -20,7 +15,7 @@
 ## v2.0.8 - 2026-03-04
 
 ### 🚀 Admin Broadcast & Notifications
-- **Hidden Admin Access**: Added secret admin entry in About page (multi-tap logo + PIN dialog).
+- **Hidden Admin Access**: Added secret admin entry in About page 
 - **In-App Admin Broadcast Panel**: Added dedicated admin screen to compose and send broadcast title/message.
 - **Direct FCM HTTP v1 Delivery**: Push notifications now send directly from the app using FCM HTTP v1 (no Cloud Functions or Firestore trigger required).
 - **Credential Validation Tooling**: Added **Validate FCM Credentials** action in admin panel before sending.
