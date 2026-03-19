@@ -1,3 +1,19 @@
+## [3.01.25] - 2026-03-20
+
+### Added ✨
+- **Seamless Queue Preloading**: Added a `ConcatenatingAudioSource` playback path with lazy preparation so the next tracks are ready earlier for smoother transitions.
+- **Explore Screen Refresh**: Added a stronger home/explore visual style with a new hero spotlight, mood chips, richer gradients, and improved content rails.
+
+### Changed 🔄
+- **Queue Navigation Flow**: Next/previous actions now use player-native queue navigation when the queue is synchronized, reducing unnecessary source resets.
+- **Queue Index Sync**: Current queue index now syncs with player index updates to keep queue state and UI progress aligned.
+- **Version Bump**: Updated app version to `3.01.25+9`.
+
+### Fixed 🛠️
+- **Song Transition Lag**: Reduced delay between tracks by avoiding full stop/reload behavior for multi-track queues.
+- **Playback Switch Stability**: Added timeout-guarded source switching and safer fallback handling to prevent hangs during rapid track changes.
+- **Playback Start Blocking**: Moved related-song fetching out of the critical playback path to avoid start delays.
+
 ## [2.98.13] - 2026-03-12
 
 ### Added ✨
